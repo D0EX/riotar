@@ -1,11 +1,14 @@
 {
   "name": "riotar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Riot API Wrapper",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/D0EX/riotar"
+  },
   "files": [
     "dist"
   ],
