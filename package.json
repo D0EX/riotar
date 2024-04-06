@@ -1,0 +1,29 @@
+{
+  "name": "riotar",
+  "version": "0.0.1",
+  "description": "Riot API Wrapper",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "riot",
+    "api",
+    "wrapper"
+  ],
+  "author": "d0ex",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
